@@ -1,0 +1,360 @@
+body{
+    margin: 0%;
+    background-color:rgb(211, 109, 6);
+}
+
+@media screen and (max-width: 600px) {
+    nav{
+        border:2px solid rgb(11, 115, 207);
+        height: 60px;  
+        background-color:white;
+        display: flex;
+        }
+        
+        nav img{
+            height: 50px;
+        }
+        
+        nav h1{
+        margin-top: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(11, 115, 207);
+        font-size: 15px;
+        }
+        #historyButton{
+           margin-top: 15px;
+           margin-left: 50%;
+           background-color:rgb(255, 204, 0);
+           border: 1px solid rgb(255, 204, 0);
+           border-radius: 50px;
+           width: 70px;
+           height: 35px;
+        }
+        
+        #historyButton a{
+            color: rgb(21, 134, 232);
+            text-decoration: none;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        
+        .searchImage{
+            margin-left: 33%;
+            margin-top: 10%;
+            margin-bottom: 1%;
+            height: 100px;
+        }
+        
+        #searchBtn{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            width:40px;
+            border-radius: 20px;
+            height: 25px;
+        }
+        
+        #searchInput{
+            margin-left: 25%;
+            margin-top: 1%;
+            width:40%;
+            border-radius: 20px;
+            height: 10px;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px;
+        }
+        .searchBar label{
+            margin-left: 25%;
+            font-size:25px;
+            font-weight: 700;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+      
+}
+
+@media screen and (min-width: 600px) {
+    nav{
+    border:2px solid rgb(11, 115, 207);
+    height: 85px;  
+    padding:5px;
+    background-color:white;
+    display: flex;
+    width: 100%;
+    }
+    
+    nav img{
+        height: 70px;
+    }
+    
+    nav h1{
+    margin-top: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(11, 115, 207);
+    font-size: 17px;
+    }
+    #historyButton{
+       margin-top: 15px;
+       margin-left: 53%;
+       background-color:rgb(255, 204, 0);
+       border: 1px solid rgb(255, 204, 0);
+       border-radius: 50px;
+       width: 130px;
+       height: 60px;
+    }
+    
+    #historyButton a{
+        color: rgb(21, 134, 232);
+        text-decoration: none;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    .searchImage{
+        margin-left: 30%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        height: 160px;
+    }
+    
+    #searchBtn{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        width:50px;
+        border-radius: 20px;
+        height: 35px;
+    }
+    
+    #searchInput{
+        margin-left: 25%;
+        margin-top: 1%;
+        width:50%;
+        border-radius: 20px;
+        height: 15px;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .searchBar label{
+        margin-left: 32%;
+        font-size:25px;
+        font-weight: bold;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav{
+    border:2px solid rgb(11, 115, 207);
+    height: 100px;  
+    padding:5px;
+    background-color:white;
+    display: flex;
+    width:100%;
+    }
+    
+    nav img{
+        height: 90px;
+    }
+    
+    nav h1{
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(11, 115, 207);
+    font-size: 17px;
+    }
+    #historyButton{
+       margin-top: 15px;
+       margin-left: 55%;
+       background-color:rgb(255, 204, 0);
+       border: 1px solid rgb(255, 204, 0);
+       border-radius: 50px;
+       width: 130px;
+       height: 60px;
+    }
+    
+    #historyButton a{
+        color: rgb(21, 134, 232);
+        text-decoration: none;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .searchImage{
+        margin-left: 35%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    #searchBtn{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        width:50px;
+        border-radius: 20px;
+        height: 35px;
+    }
+    
+    #searchInput{
+        margin-left: 25%;
+        margin-top: 1%;
+        width:50%;
+        border-radius: 20px;
+        height: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .searchBar label{
+        margin-left: 36%;
+        font-size:30px;
+        font-weight: bold;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    }
+    
+@media screen and (min-width: 992px) {
+    nav{
+    border:2px solid rgb(11, 115, 207);
+    height: 100px;  
+    padding:5px;
+    background-color:white;
+    display: flex;
+    }
+    
+    nav img{
+        height: 100px;
+    }
+    
+    nav h1{
+    margin-top: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(11, 115, 207);
+    font-size: 20px;
+    }
+    #historyButton{
+       margin-top: 15px;
+       margin-left: 60%;
+       background-color:rgb(255, 204, 0);
+       border: 1px solid rgb(255, 204, 0);
+       border-radius: 50px;
+       width: 140px;
+       height: 60px;
+    }
+    
+    #historyButton a{
+        color: rgb(21, 134, 232);
+        text-decoration: none;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .searchImage{
+        margin-left: 35%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    #searchBtn{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        width:50px;
+        border-radius: 20px;
+        height: 35px;
+    }
+    
+    #searchInput{
+        margin-left: 30%;
+        margin-top: 1%;
+        width:30%;
+        border-radius: 20px;
+        height: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .searchBar label{
+        margin-left: 36%;
+        font-size:30px;
+        font-weight: bold;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    }
+    
+    @media screen and (min-width: 1200px) {
+        nav{
+            border:2px solid rgb(11, 115, 207);
+            height: 100px;  
+            padding:5px;
+            background-color:white;
+            display: flex;
+            }
+            
+            nav img{
+                height: 100px;
+            }
+            
+            nav h1{
+            margin-top: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(11, 115, 207);
+            font-size: 27px;
+            }
+            #historyButton{
+               margin-top: 15px;
+               margin-left: 60%;
+               background-color:rgb(255, 204, 0);
+               border: 1px solid rgb(255, 204, 0);
+               border-radius: 50px;
+               width: 140px;
+               height: 60px;
+            }
+            
+            #historyButton a{
+                color: rgb(21, 134, 232);
+                text-decoration: none;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            
+            .searchImage{
+                margin-left: 37%;
+                margin-top: 5%;
+                margin-bottom: 2%;
+                height: 200px;
+            }
+            
+            #searchBtn{
+                cursor: pointer;
+                background-color: black;
+                color: white;
+                width:50px;
+                border-radius: 20px;
+                height: 35px;
+            }
+            
+            #searchInput{
+                margin-left: 25%;
+                margin-top: 1%;
+                width:50%;
+                border-radius: 20px;
+                height: 20px;
+                font-size: 20px;
+                font-weight: 500;
+                padding: 10px;
+            }
+            .searchBar label{
+                margin-left: 38%;
+                font-size:30px;
+                font-weight: bold;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            }
+    
