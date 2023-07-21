@@ -3,6 +3,16 @@ body{
     background-color:rgb(211, 109, 6);
 }
 
+.meaningCard{
+    margin-left : 25%;
+    padding : 10px;
+    font-size : 20px;
+    color : rgb(43,42,42);
+    width : 50%;
+    font-weight: bold;
+    font-family: cursive;
+
+}
 @media screen and (max-width: 600px) {
     nav{
         border:2px solid rgb(11, 115, 207);
