@@ -7,7 +7,9 @@ async function getData(){
     const data = await response.json();
 
     let mainDiv = document.querySelector(".meaningCard");
+    mainDiv.style.display = "inline-block";
     mainDiv.textContent = "Meaning:  " + data[0].meanings[0].definitions[0].definition;
+
 
     let dataGet = JSON.parse('[' + localStorage.getItem("history") + ']');
     dataGet.map((el)=>{
@@ -17,7 +19,6 @@ if(el.meaning === data[0].meanings[0].definitions[0].definition){
     });
 
 if(!present){
-
     let obj = {};
     obj.id = histArr.length;
     obj.word = word;
@@ -73,5 +74,5 @@ function history(){
        
     
 }
-history();
+
 
